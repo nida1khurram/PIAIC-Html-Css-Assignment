@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Chapter # 7 Forms</h1>
+
+    <form action="forms">
+<fieldset>
+    <legend>Your Details :</legend>
+    <label for="name">Name :</label>
+    <input type="text" id="name" name="name" required/><br />
+<br />
+    <label for="email">Email : </label>
+    <input type="email" id="email" name="email"  required/>
+</fieldset>
+<br />
+<fieldset>
+    <br />
+    <legend>Your Review :</legend>
+    <label for="question">
+        How did you hear about us?
+    </label>
+        <select name="about" id="about">
+        <option value="Google">Google</option>
+        <option value="Youtube">Youtube</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Instagram">Instagram</option>
+        </select>
+        <br><br />
+        <label for="question">
+        Would you visit again?
+            <br>
+            <input type="radio" id="yes" name="fav_language" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="fav_language" value="No">
+            <label for="no">No</label>
+            <input type="radio" id="maybe" name="fav_language" value="Maybe">
+            <label for="maybe">Maybe</label>
+        </label>
+        <br><br />
+<label for="Comments"> Comments:</label>
+   <br />
+    <textarea name="Comments" id="Comments" cols="30" rows="4"></textarea>
+<br>
+    <input type="checkbox" id="box" name="box" value="box">
+    <label for="box"> Sign me up for email updates </label><br>
+<br>
+    <input type="button" onclick="alert('Submit')" value="Submit review" id="button">
+</fieldset>
+    </form>
+</body>
+</html>

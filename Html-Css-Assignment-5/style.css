@@ -1,0 +1,19 @@
+body{
+    background: rgb(166, 237, 168);
+   
+}
+p{
+    font-size: 15px;
+    font-weight: bold;
+    padding: px;  
+}
+
+#logo{
+    width: 250px;
+    /* height: 300px; */
+    margin-top: 0%;
+    
+}
+#cloud{
+    width: 500px;
+}
